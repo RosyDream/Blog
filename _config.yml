@@ -59,7 +59,7 @@ ga_domain: yoursite
 
 # Sidebar settings
 sidebar: true                       # whether or not using Sidebar.
-sidebar-about-description-line1: "Keep Clean, Keep Simple."
+sidebar-about-description-line1: "Let life be beautiful like summer flowers and death like autumn leaves."
 sidebar-about-description-line2: "Email: rosyworld@126.com"
 sidebar-avatar: resources/img/header_img/Beauty.jpeg
 widgets:

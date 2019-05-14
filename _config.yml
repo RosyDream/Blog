@@ -162,7 +162,7 @@ sitemap:
 deploy:
   type: git
   repository:
-    github: https://__GITHUB_TOKEN__@github.com/yours/yours.github.io.git # modify
+    github: https://__GITHUB_TOKEN__@github.com/RosyDream/RosyDream.github.io.git # modify
   branch: master
 
 valine: true

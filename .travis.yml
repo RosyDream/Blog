@@ -10,17 +10,16 @@ install: npm install
 notifications:
   email:
     recipients:
-      - yours #email
+      - rosyworld@126.com #email
     on_success: change
     on_failure: always
 
 before_script:
-- git config --global user.name "yourname"
-- git config --global user.email "youremail"
+- git config --global user.name "rosyworld"
+- git config --global user.email "rosyworld@126.com"
 - sed -i "s/__GITHUB_TOKEN__/${__GITHUB_TOKEN__}/" _config.yml
-- sed -i "s/__CODING_TOKEN__/${__CODING_TOKEN__}/" _config.yml
-- sed -i "s/__VISITORS_APPID__/${__VISITORS_APPID__}/" _config.yml
-- sed -i "s/__VISITORS_APPKEY__/${__VISITORS_APPKEY__}/" _config.yml
+- sed -i "s/__VISITORS_APPID__/${__APP_ID__}/" _config.yml
+- sed -i "s/__VISITORS_APPKEY__/${__APP_KEY__}/" _config.yml
 
 script: npm run build
 
